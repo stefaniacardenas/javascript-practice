@@ -1,4 +1,4 @@
-# JavaScript Practice
+# JavaScript practice
 ======================
 
 I'm trying to refresh my JavaScript knowledge using one of [Codebar tutorials] (http://tutorials.codebar.io/).
