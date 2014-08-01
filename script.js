@@ -2,7 +2,9 @@
 
 console.log('Hello, this is my first line of JavaScript using Codebar');
 
-// In JavaScript you always need to write var before the variable name
+// Variables
+
+// In JavaScript you always need to write var before the variable name when you declare a variable
 var name = "Codebar" ;
 console.log(name + " is amazing!");
 
@@ -43,4 +45,13 @@ console.log("Multiplication: x * y = " + multiplication);
 
 var division = x / y ;
 console.log("Division: x / y = " + division);
+
+// If statement
+if (codebarIsAmazing) {
+	console.log("Codebar is awesome!");
+}
+
+if (!codebarIsAmazing) {
+	console.log("Codebar is not so awesome :( !")
+}
 
