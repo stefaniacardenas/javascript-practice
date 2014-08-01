@@ -15,3 +15,12 @@ console.log("The value of pi is " + pi);
 var year = 2014
 var nextYear = year + 1;
 console.log("We are in " + year + " but " + nextYear + " is just around the corner!");
+
+var codebarIsAmazing = true
+var weatherIsNice = true
+console.log("Is Codebar awesome? " + codebarIsAmazing )
+console.log("Is the weather in London nice? " + weatherIsNice);
+
+// Variables with no value are called undifined variables
+var iHaveNoValue;
+console.log("What kind of variable am I? " + iHaveNoValue);
