@@ -24,3 +24,23 @@ console.log("Is the weather in London nice? " + weatherIsNice);
 // Variables with no value are called undifined variables
 var iHaveNoValue;
 console.log("What kind of variable am I? " + iHaveNoValue);
+
+// Operations exercises
+// Let's set the title
+console.log("Operations");
+
+var x = 6;
+var y = 3;
+
+var addition = x + y ;
+console.log("Addition: x + y = " + addition);
+
+var subtraction = x - y;
+console.log("Subtraction: x - y = " + subtraction);
+
+var multiplication = x * y;
+console.log("Multiplication: x * y = " + multiplication);
+
+var division = x / y ;
+console.log("Division: x / y = " + division);
+
