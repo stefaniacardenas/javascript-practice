@@ -104,11 +104,19 @@ function hello(name) {
 
 hello("Stefania");
 
+// I can call this function from the browser console
+
 var name = "Stefania"
 
 function popupHello() {
 	alert("Hello " + name);
 };
+
+function whatIAmDoingToday(coach, place) {
+	console.log("Today, I am at " + place + " and I'm learning JavaScript with the help of " + coach + "!");
+};
+
+whatIAmDoingToday("Alex", "Makers Academy");
 
 
 
