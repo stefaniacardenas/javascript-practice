@@ -70,4 +70,32 @@ if (apples !== oranges) {
 	console.log("Apples and oranges are not equal");
 }
 
+// Greater than ,  less than
+
+var coaches = 20
+var students = 24
+var pizzas = 25
+
+var people = coaches + students
+
+if (people > pizzas) {
+	console.log("We have more people than pizzas");
+}
+
+if (students > pizzas) {
+	console.log("There are not enough pizzas for the students!");
+}
+
+if (coaches < students) {
+	console.log("We have less coaches than students");
+}
+
+if (people > pizzas) {
+	console.log("We have more people than pizzas, that's not ideal!")
+} else {
+	console.log("We have plenty of pizzas for everyone!")
+}
+
+
+
 
