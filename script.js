@@ -112,12 +112,40 @@ function popupHello() {
 	alert("Hello " + name);
 };
 
+// Multiple arguments
+
 function whatIAmDoingToday(coach, place) {
 	console.log("Today, I am at " + place + " and I'm learning JavaScript with the help of " + coach + "!");
 };
 
 whatIAmDoingToday("Alex", "Makers Academy");
 
+// Returning values
 
+function addStuff(x, y) {
+	return x * y;
+};
+
+addStuff(10, 6);
+
+
+// Variable scopes
+var result;
+
+function addingValues(x, y) {
+	result = x+y;
+};
+
+addingValues(10,6);
+console.log(result);
+
+// This variable is only visible inside the function.
+// If I call the var result outside the function it will give me an error because it doesn't know what result is outside the function.
+function subtractValues(x, y) {
+	var result = x-y;
+	console.log(result);
+};
+
+subtractValues(10,6);
 
 
