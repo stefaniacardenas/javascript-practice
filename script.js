@@ -148,4 +148,15 @@ function subtractValues(x, y) {
 
 subtractValues(10,6);
 
+var me = "Stefania";
+var aboutMe = "I love coding and pizza";
+var sessionsAttended = 0
+
+console.log("Hi! My name is " +me+ ". A couple of things about me: " + aboutMe +".");
+if (sessionsAttended > 0) {
+	console.log("This is not my first time here. I <3 Codebar!");
+} else {
+	console.log("This is the first time I'm attending Codebar!");
+}
+
 
