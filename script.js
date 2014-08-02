@@ -52,6 +52,22 @@ if (codebarIsAmazing) {
 }
 
 if (!codebarIsAmazing) {
-	console.log("Codebar is not so awesome :( !")
+	console.log("Codebar is not so awesome :( !");
 }
+
+// Strict equality
+
+var apples = "apples";
+var oranges = "oranges";
+
+if (apples === oranges) {
+	console.log("Apples and oranges are the same thing!");
+}
+
+// Strict inequality
+
+if (apples !== oranges) {
+	console.log("Apples and oranges are not equal");
+}
+
 
