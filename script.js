@@ -96,6 +96,20 @@ if (people > pizzas) {
 	console.log("We have plenty of pizzas for everyone!")
 }
 
+// Functions. Pieces of code that you can rerun without having to define the same things again.
+
+function hello(name) {
+	console.log("Hello " + name + "!");
+};
+
+hello("Stefania");
+
+var name = "Stefania"
+
+function popupHello() {
+	alert("Hello " + name);
+};
+
 
 
 
