@@ -53,3 +53,11 @@ console.log(animals);
 // .shift() removes the first object of the array
 animals.shift();
 console.log(animals);
+
+// .sort() to order the array
+animals.sort();
+console.log(animals);
+
+var names = ["Jane", "Barry", "Helen", "David", "Sam" ];
+names.sort();
+console.log(names);
