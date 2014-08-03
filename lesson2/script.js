@@ -54,10 +54,32 @@ console.log(animals);
 animals.shift();
 console.log(animals);
 
-// .sort() to order the array
+// .sort() to order the array kind of alphabetically
 animals.sort();
 console.log(animals);
 
 var names = ["Jane", "Barry", "Helen", "David", "Sam" ];
 names.sort();
 console.log(names);
+
+// Sort passes pairs of entries from the array to sortNumbersAscending.
+// If sortNumberAscending returns a number less than zero, then sort knows that a should come before b.
+// If the number is greater than zero, then b should come before a.
+function sortNumbersAscending(a,b) {
+	return a - b;
+}
+var nums = [1, 5, 3, 19, 2, 10];
+nums.sort(sortNumbersAscending);
+console.log(nums);
+
+// Reverse sorting
+
+animals.sort().reverse();
+console.log(animals);
+
+function sortNumbersDescending(a,b) {
+	return b - a;
+}
+var nums = [1, 5, 3, 19, 2, 10];
+nums.sort(sortNumbersDescending);
+console.log(nums);
