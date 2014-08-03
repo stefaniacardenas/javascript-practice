@@ -10,3 +10,17 @@ while (i <= 10) {
 }
 
 console.log("Total: " + total);
+
+// For loop
+// Format of a for loop:
+// for (/* before loop starts */; /* test before each iteration */; /* after each iteration */) {
+  // set of statements
+// }
+
+var total = 0;
+var i; //we state the value of i below
+
+for (i = 1; i <= 10; i = i + 1) {
+	total = total + i;
+}
+console.log("Total: " + total);
