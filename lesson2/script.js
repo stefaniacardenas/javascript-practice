@@ -24,3 +24,19 @@ for (i = 1; i <= 10; i = i + 1) {
 	total = total + i;
 }
 console.log("Total: " + total);
+
+
+// Arrays
+
+var animals = ["dog", "cat", "rabbit", "horse", "elephant", "monkey"];
+
+console.log("The first animal of the array is: " + animals[0]);
+console.log("There are " + animals.length + " animals in this array.");
+
+var i;
+//i = 0 because we start from index 0 in the array
+
+for (i = 0; i < animals.length; i = i + 1) {
+	var animal = animals[i]; 
+}
+console.log(animal);
