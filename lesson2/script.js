@@ -40,3 +40,10 @@ for (i = 0; i < animals.length; i = i + 1) {
 	var animal = animals[i]; 
 }
 console.log(animal);
+
+// Methods is a function that belongs to an object
+// .push method adds an object to the end of the array 
+animals.push("zebra");
+// .unshift method adds an object to the beginning of the array 
+animals.unshift("cow");
+console.log(animals);
