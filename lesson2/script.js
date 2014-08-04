@@ -122,19 +122,22 @@ console.log(message.toUpperCase());
 var london = {
 	name: "London",
 	population: 8308369,
-	tallestBuilding: {
+	tallestBuilding: { // Creating a nested object
 		name: "Shard",
 		height: "310m"
 	},
 	numberOfUniversities: 43,
 	averageRent: 1106,
 	dailyTubePassengerJourney: 3500000, 
-	olympics: [ 1908, 1948, 2012]
+	olympics: [ 1908, 1948, 2012] // Using an array
 }
 
+// You can access the properties of the object either with the dot or with the square brackets
+// i.e. london.population or london[population]
 console.log("Population of London: " + london.population);
 console.log("The tallest building in London is the " + london.tallestBuilding.name + " with a height of " + london.tallestBuilding.height);
 
+// Iterating over an array within the object
 var i;
 console.log("The olympics took place in London in:\n");
 
