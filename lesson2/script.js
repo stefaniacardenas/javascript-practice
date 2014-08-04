@@ -116,3 +116,46 @@ console.log(noAvocados);
 var message = "It's cold today"
 console.log(message.length);
 console.log(message.toUpperCase());
+
+// Creating objects
+
+var london = {
+	name: "London",
+	population: 8308369,
+	tallestBuilding: {
+		name: "Shard",
+		height: "310m"
+	},
+	numberOfUniversities: 43,
+	averageRent: 1106,
+	dailyTubePassengerJourney: 3500000, 
+	olympics: [ 1908, 1948, 2012]
+}
+
+console.log("Population of London: " + london.population);
+console.log("The tallest building in London is the " + london.tallestBuilding.name + " with a height of " + london.tallestBuilding.height);
+
+var i;
+console.log("The olympics took place in London in:\n");
+
+for (i = 0; i < london.olympics.length; i = i + 1) {
+	console.log(london.olympics[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
