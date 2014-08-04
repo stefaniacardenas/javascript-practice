@@ -110,3 +110,9 @@ for (i = 0; i < fruitAndVeg.length; i = i + 1) {
 }
 
 console.log(noAvocados);
+
+// Objects
+
+var message = "It's cold today"
+console.log(message.length);
+console.log(message.toUpperCase());
