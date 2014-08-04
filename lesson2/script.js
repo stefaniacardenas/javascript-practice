@@ -99,3 +99,14 @@ while (i < fruitAndVeg.length) {
   i = i + 1;
 }
 console.log(noAvocados);
+
+var fruitAndVeg = [ "apple", "orange", "banana", "kiwi", "avocado", "celery", "aubergine" ];
+var noAvocados = [];
+
+for (i = 0; i < fruitAndVeg.length; i = i + 1) {
+	if (fruitAndVeg[i] !== "avocado"){
+		noAvocados.push(fruitAndVeg[i]);
+	}
+}
+
+console.log(noAvocados);
