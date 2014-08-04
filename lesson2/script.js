@@ -83,3 +83,19 @@ function sortNumbersDescending(a,b) {
 var nums = [1, 5, 3, 19, 2, 10];
 nums.sort(sortNumbersDescending);
 console.log(nums);
+
+// More loops
+// Iterating over the array using while loop
+
+var fruitAndVeg = [ "apple", "orange", "banana", "kiwi", "avocado", "celery", "aubergine" ];
+var noAvocados = [];
+var i = 0;
+
+while (i < fruitAndVeg.length) {
+  if (fruitAndVeg[i] !== "avocado") {
+    noAvocados.push(fruitAndVeg[i]);
+  }
+
+  i = i + 1;
+}
+console.log(noAvocados);
